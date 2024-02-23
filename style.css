@@ -391,8 +391,7 @@ body,
 }
 
 .media__video {
-  max-width:100% ;
-  height:auto;
+  max-width: 100%;
 }
 
 .projects__main {
