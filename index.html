@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop src="video-loop.mp4"></video>
+      <header class="header">
+        <label class="bruger-menu" for="menu">
+          <div class="bruger-menu__bar"></div>
+          <div class="bruger-menu__bar"></div>
+          <div class="bruger-menu__bar"></div>
+        </label>
+        <input id="menu" class="bruger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__items">
+              <a href="#bio" class="navigation__link navigation__Bio">Bio</a>
+            </li>
+            <li class="navigation__items">
+              <a href="#skills" class="navigation__link navigation__Skills"
+                >Skills</a
+              >
+            </li>
+            <li class="navigation__items">
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li class="navigation__items">
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li class="navigation__items">
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li class="navigation__items">
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch theme</h3>
+          <input
+            class="toggle__checkbox"
+            type="checkbox"
+            name="toggle checkbox"
+            id="checkbox"
+          />
+          <label class="toggle__label" for="checkbox"></label>
+        </div>
+      </header>
+      <!-- Bio section -->
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I’M A Passionate Engineer</h1>
+          <p class="bio__objective">
+            I am, an enthusiastic engineer with a passion for programming,
+            diving into the world of technology with fervor. Whether crafting
+            elegant algorithms or architecting efficient solutions, my
+            dedication shines through in every line of code. With a blend of
+            creativity and analytical prowess, I tackle challenges head-on,
+            continually pushing the boundaries of what's possible in the digital
+            realm. I have worked at both Khartoum Petroleum Refinery Company and
+            Rotana Grains Company, leveraging my expertise to contribute
+            meaningfully to cutting-edge projects and drive innovation within
+            the companies.
+            <!-- <a
+              class="bio__almdrasa"
+              href="https://rotana.rotanaflourmills.com/contact/"
+              >Rotana</a -->
+            >,you can contact with me at :
+            <a
+              class="bio__facebook"
+              href="https://www.facebook.com/ahmed.abbdalla"
+              >Facebook</a
+            >, <a class="bio__twitter" href="https://x.com/AbbdallaAhmed">X</a>
+            <!-- , -->
+            <!-- <a
+              class="bio__linkedin"
+              href="#"
+              >LinkedIn</a -->
+            <!-- > -->
+            <!-- and -->
+            <!-- <a
+              class="bio__youtube"
+              href="#"
+              >Youtube</a -->
+            <!-- >. -->
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+          <a class="bio__links find-out-link" href="./assets/Ahmed Abdalla cv">
+            Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__picture-container">
+          <img class="bio__picture" src="my profile pic 2.png" alt="mo" />
+        </div>
+      </section>
+      <!-- skills section -->
+      <section class="skills section section--with-background" id="skills">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skill__years">9 month</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skill__years">9 month</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">JAVASCRIPT</h2>
+            <span class="skill__years">9 month</span>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="media section">
+        <video
+          width="100%"
+          height="50%"
+          style="z-index: 2"
+          class="media__video"
+          poster="play-button-icon-png-18927.png"
+          controls
+          muted
+        >
+          <source src="boy,mole.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video format.
+        </video>
+      </section>
+      <section class="Projects section" id="projects">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main section">
+          <img
+            class="projects__img"
+            src="simple calc.jpg"
+            alt="simple calculater"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Simple calc <br /></h3>
+            <p class="projects__description">
+              A JavaScript calculator is a web application that performs
+              arithmetic operations such as addition, subtraction,
+              multiplication, and division using JavaScript programming
+              language. It typically consists of a user interface with buttons
+              for each digit and operation, along with a display area to show
+              the input and output. JavaScript's ability to handle mathematical
+              operations and manipulate the HTML DOM (Document Object Model)
+              allows developers to create interactive and dynamic calculators
+              that can be embedded into websites or run as standalone
+              applications in web browsers. These calculators can range from
+              simple implementations to more complex ones with additional
+              features like scientific functions, history tracking, and
+              customizable themes.
+            </p>
+            <a class="projects__link" href="#" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a class="projects__link" href="#" target="_blank">Edge Link</a>
+          </div>
+          <div class="projects__data">
+            <h3 class="h3-heading">tic tac toe <br /></h3>
+            <p class="projects__description">
+              Tic Tac Toe is a classic two-player game played on a 3x3 grid,
+              where players take turns marking Xs and Os in empty cells. The
+              objective is to be the first to form a horizontal, vertical, or
+              diagonal line of three of your own marks. The game typically ends
+              in a draw if all cells are filled without a winner. It's a simple
+              yet engaging game that exercises strategic thinking and spatial
+              awareness. Tic Tac Toe is often used as a learning tool for
+              programming beginners due to its straightforward rules and
+              implementation, making it a popular choice for coding tutorials
+              and practice projects.
+            </p>
+            <a class="projects__link" href="#" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a class="projects__link" href="#" target="_blank">Firefox Link</a>
+            <span>-</span>
+            <a class="projects__link" href="#" target="_blank">Edge Link</a>
+          </div>
+          <img
+            class="projects__img responsive-img"
+            src="tic tac toe.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+      </section>
+      <section id="clients" class="clients section section--with-background">
+        <h2 class="h2-heading">
+          WHAT MY <br />
+          Clients
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+              ab facere architecto, vel sit fugit, eveniet aliquam consequuntur
+              in cum qui. Inventore repudiandae veritatis rem esse nihil
+              dignissimos facilis consequatur minus odit laborum molestias
+              officiis, quis nam praesentium porro mollitia eaque. Magni,
+              laborum totam voluptate dicta ad dignissimos maxime cupiditate
+              maiores, consectetur odit, animi nihil? Nesciunt amet molestias
+              laborum praesentium assumenda debitis. Quaerat enim expedita,
+              rerum illo distinctio cumque quod. Nisi consequatur, saepe, fugiat
+              expedita amet tempore neque quo velit aliquid dolores sequi et
+              illum atque porro fuga repudiandae aspernatur, at laborum quaerat
+              distinctio labore aut similique temporibus cumque. Modi.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              earum veritatis quam a qui ullam magni in debitis, libero nesciunt
+              quaerat saepe omnis tenetur molestiae aspernatur, nemo iste. Quis
+              temporibus minus quod maiores. Autem enim provident dolores
+              eveniet, necessitatibus dolor consectetur deserunt perferendis
+              accusamus quae possimus ullam minus eum omnis, labore inventore
+              sed? Expedita consectetur facilis maiores corrupti, assumenda,
+              exercitationem nisi vitae maxime numquam, doloremque amet. Minima
+              laboriosam adipisci incidunt consequatur rerum dicta dolorum eius?
+              Aspernatur magni excepturi ipsam error.
+            </p>
+            <p class="clients__opinion">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              recusandae dolor illo similique tempora, blanditiis exercitationem
+              dicta asperiores cum, et voluptas fugit quibusdam, soluta magnam?
+              Vitae consequatur sequi animi labore minima accusantium, eveniet
+              perferendis, quos debitis consequuntur enim nemo quo veniam nihil
+              maxime sint quidem, ipsam exercitationem dolorem. Excepturi
+              facilis eaque consequuntur? Repellat dicta, laborum ducimus
+              dolores neque dolorum aspernatur aut velit ullam, eius commodi
+              accusamus optio obcaecati eaque quisquam atque. Dolores veniam
+              ducimus, delectus nostrum officia quis quo id vel, labore repellat
+              porro laudantium. Aut voluptate vitae esse nisi possimus quos
+              optio? Quidem laborum aliquam maiores, maxime libero odit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a class="contact__email" href="mailto:ahmed.abbdalla@gmail.com"
+            >Send Email</a
+          >
+          <div class="contact__socials">
+            <a href="" class="contact__social"
+              ><img src="facebook.svg" alt="icon of facebook" /></a
+            ><a href="#" class="contact__social"
+              ><img src="twitter.svg" alt="icon of twitter" /></a
+            ><a href="#" class="contact__social"
+              ><img src="youtube.svg" alt="icon of youtube"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="instagram.svg" alt="icon of instagram"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="result.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="full name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="textAreaDescription"
+              cols="30"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer>© ahmed mohamed 2023</footer>
+    </div>
+  </body>
+</html>
